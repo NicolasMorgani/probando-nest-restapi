@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { UsersModule } from './users/users.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { DogsModule } from './dogs/dogs.module';
+import { AuthModule } from './auth/auth.module';
 
 
 @Module({
@@ -14,7 +15,7 @@ import { DogsModule } from './dogs/dogs.module';
     database: "db_crud",
     autoLoadEntities: true,
     synchronize: true,
-  }),UsersModule, DogsModule],
+  }),UsersModule, DogsModule, AuthModule],
   controllers: [],
   providers: [],
 })
