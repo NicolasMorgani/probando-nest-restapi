@@ -5,6 +5,7 @@ import { DogsModule } from './dogs/dogs.module';
 import { AuthModule } from './auth/auth.module';
 
 
+
 @Module({
   imports: [ TypeOrmModule.forRoot({
     type: "mysql",
