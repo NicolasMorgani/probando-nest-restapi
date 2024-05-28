@@ -16,6 +16,7 @@ async function bootstrap() {
   }))
 
   const config = new DocumentBuilder()
+   .addBearerAuth()
     .setTitle('Test Swagger')
     .setDescription('Evaluacion Tecnica')
     .setVersion('1.0')

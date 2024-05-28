@@ -45,3 +45,7 @@ como por ejemplo en el procesamiento de pedidos: Cuando se procesan pedidos en u
 ## Usando async/await: ¿cómo se puede aprovechar el paralelismo?
 
 Usando async/await, puedes aprovechar el paralelismo al ejecutar múltiples funciones asincrónicas simultáneamente, esperando sus resultados con await para optimizar el rendimiento
+
+--> npm install --save @nestjs/jwt passport-jwt
+--> npm install --save-dev @types/passport-jwt
+--> npm install --save bcrypt
